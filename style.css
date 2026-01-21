@@ -1029,10 +1029,6 @@ width: 100%;
 
 }
 
-  .gift-card-container-text {
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
-  }
 
 .gift-card-container-text-child2{
   gap: 20px;
@@ -1326,6 +1322,7 @@ object-fit: cover;
   }
 
 }
+
 
 
 
