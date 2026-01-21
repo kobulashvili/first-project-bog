@@ -159,6 +159,26 @@
     transform: translateY(0);
 }
 
+.underline-motion.visible {
+    animation-name: line;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transform-origin: left;
+}
+.gift-card-container img.visible {
+    animation-name: slide-up;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transform-origin: right;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -173,12 +193,6 @@
   max-width: 1400px;
   margin: 0 auto;
   
-}
-.underline-motion.visible {
-    animation-name: line;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-    transform-origin: left;
 }
 
 .card-slider h3{
@@ -1312,6 +1326,7 @@ object-fit: cover;
   }
 
 }
+
 
 
 
