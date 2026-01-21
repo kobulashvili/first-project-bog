@@ -29,7 +29,7 @@
     flex-direction: column;
    
     align-items: end;
-    height: 92vh;
+    height: auto;
     width: 100%;
     background-image: url(./registration/card-6401249_1280.webp);
     background-size: cover;
@@ -55,8 +55,7 @@
     justify-content: center;
     align-items: center;
     gap: 15px;
-    margin-top: 60px;
-    margin-right: 70px;
+    margin: 60px 50px 40px 0;
 
 }
 
@@ -157,5 +156,6 @@
     flex-direction: column;
     gap: 0;
 }
+
 
 }
