@@ -971,18 +971,12 @@ width: 100%;
 
 
 
-@media (min-width: 768px) {
-  .gift-card-container-text {
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
-  }
-}
 
 @media(max-width: 768px){
 
     .carousel{
     width: 400px;
-    height: auto;    
+    height: 610px;    
 }
 
 .box-location-dollar{
@@ -1033,7 +1027,10 @@ width: 100%;
 
 }
 
-
+  .gift-card-container-text {
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+  }
 
 .gift-card-container-text-child2{
   gap: 20px;
@@ -1173,7 +1170,7 @@ margin: 0 auto;
 @media(max-width: 450px){
     .carousel{
     width: 300px;
-    height: auto;    
+    height: 610px;    
 }
 
 .box-location-dollar{
@@ -1326,6 +1323,7 @@ object-fit: cover;
   }
 
 }
+
 
 
 
