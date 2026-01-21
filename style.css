@@ -148,7 +148,23 @@
 .underline {
   opacity: 0.1;
 }
+.motion {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.6s ease;
+}
 
+.motion.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.underline-motion.visible {
+    animation-name: line;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transform-origin: left;
+}
 
 
 
@@ -786,16 +802,6 @@ margin: 0 auto;
         }
 
 
-.motion {
-    opacity: 0;
-    transform: translateY(40px);
-    transition: all 0.6s ease;
-}
-
-.motion.visible {
-    opacity: 1;
-    transform: translateY(0);
-}
 
 
 
@@ -1307,5 +1313,6 @@ object-fit: cover;
   }
 
 }
+
 
 
